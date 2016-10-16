@@ -9,9 +9,12 @@ imap <left> <nop>
 imap <right> <nop>
 
 set number
-syntax enable
+execute pathogen#infect()
+syntax on 
 filetype indent plugin on 
 
  set path+=**
  set wildmenu
  colorscheme Tomorrow-Night-Eighties
+
+ 

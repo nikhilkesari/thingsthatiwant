@@ -8,6 +8,9 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
+nmap E :NERDTree<CR>
+nmap Ebb :NERDTreeFromBookmark bb<CR>
+
 set number
 execute pathogen#infect()
 syntax on 

@@ -1,0 +1,3 @@
+Plug 'Lokaltog/vim-powerline'
+Plug 'scrooloose/nerdtree'
+Plug 'wincent/command-t'
